@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/accessibility_service_description"
+    android:packageNames="com.ss.android.ugc.aweme"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFlags="flagDefault"
+    android:accessibilityFeedbackType="feedbackSpoken"
+    android:notificationTimeout="1000"
+    android:canRetrieveWindowContent="true"
+    android:canTakeScreenshot="true"
+    android:settingsActivity="com.clark.accessibility.SettingsActivity"/>
+
+<!--
+    packageName 抖音包名
+    accessibilityEventTypes 响应的事件类型
+    canRetrieveWindowContent 允许获取屏幕信息
+    android:notificationTimeout 同一时间触发的最短时间间隔（毫秒）
+-->
