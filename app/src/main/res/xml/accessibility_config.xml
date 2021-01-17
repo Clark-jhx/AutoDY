@@ -8,6 +8,7 @@
     android:notificationTimeout="1000"
     android:canRetrieveWindowContent="true"
     android:canTakeScreenshot="true"
+    android:canPerformGestures="true"
     android:settingsActivity="com.clark.accessibility.SettingsActivity"/>
 
 <!--
